@@ -1,4 +1,4 @@
-# herdr-default-layout
+# herdr-custom-fv-layout
 
 A [herdr](https://herdr.dev) plugin that gives every new workspace, including worktree
 workspaces, the same layout:
@@ -34,14 +34,14 @@ pane, so restored workspaces and ones you arranged by hand are left alone.
 2. Install this plugin:
 
    ```sh
-   herdr plugin install NobbyBop/herdr-default-layout
+   herdr plugin install NobbyBop/herdr-custom-fv-layout
    ```
 
    Or clone it and link it for local development:
 
    ```sh
-   git clone https://github.com/NobbyBop/herdr-default-layout
-   herdr plugin link ./herdr-default-layout
+   git clone https://github.com/NobbyBop/herdr-custom-fv-layout
+   herdr plugin link ./herdr-custom-fv-layout
    ```
 
 3. Check that both are enabled, then create a workspace to try it:
@@ -86,10 +86,10 @@ shows each run of the hook with its exit code and stderr.
 ## Uninstall
 
 ```sh
-herdr plugin uninstall default-layout
+herdr plugin uninstall herdr-custom-fv-layout
 ```
 
-(Use `herdr plugin unlink default-layout` if you linked it.)
+(Use `herdr plugin unlink herdr-custom-fv-layout` if you linked it.)
 
 ## License
 
