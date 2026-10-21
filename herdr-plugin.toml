@@ -1,0 +1,16 @@
+id = "default-layout"
+name = "Default layout"
+version = "0.1.0"
+min_herdr_version = "0.7.5"
+description = "Give every new workspace: terminal | file viewer on top, terminal beneath."
+platforms = ["macos", "linux"]
+
+[[events]]
+on = "workspace.created"
+command = ["bash", "scripts/apply-layout.sh"]
+
+[[actions]]
+id = "apply"
+title = "Apply default layout"
+contexts = ["workspace"]
+command = ["bash", "scripts/apply-layout.sh"]
