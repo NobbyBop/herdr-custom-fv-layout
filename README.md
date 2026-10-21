@@ -65,7 +65,7 @@ Then run `herdr server reload-config`.
 
 ## Manual use
 
-The same script is a plugin action, "Apply default layout". Run it on a workspace that still
+The same script is a plugin action, "Apply custom file viewer layout". Run it on a workspace that still
 has a single pane. It does nothing on a workspace that already has more than one.
 
 ## Tuning
